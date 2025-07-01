@@ -37,5 +37,4 @@ jobs:
           mvn -B verify \
             org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
             -Dsonar.projectKey=development-riya_journal-app \
-            -Dsonar.host.url=http://localhost:9000 \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
